@@ -15,6 +15,7 @@ interface SearchBarProps {
   searching: any;
   toggleSearch: any;
   onChange: (e) => void;
+  placeholder: string;
 }
 
 const SearchBar: React.FunctionComponent<SearchBarProps> = (
@@ -29,7 +30,7 @@ const SearchBar: React.FunctionComponent<SearchBarProps> = (
           <InputGroup>
             <Input
               type='text'
-              placeholder='Search masternodes'
+              placeholder={props.placeholder}
               name='searchInput'
               id='searchInput'
               onChange={props.onChange}
