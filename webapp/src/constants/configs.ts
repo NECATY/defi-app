@@ -33,6 +33,7 @@ export const RESIGNED_STATE = 'RESIGNED';
 export const DAT_TOKEN = 'dat';
 export const DCT_TOKEN = 'dct';
 export const CREATE_DCT = 'dat';
+export const MINIMUM_DFI_REQUIRED_FOR_TOKEN_CREATION = 0;
 export const DCT_DISTRIBUTION = 'dct';
 export const TOKEN_TRANSFERS = 'Transfers';
 export const TOKEN_HOLDERS = 'Holders';
